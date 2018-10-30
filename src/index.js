@@ -1,5 +1,7 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 import 'bootstrap';
-import './index.scss'
+import './index.scss';
 
-console.log('it works')
+$('#click-button').on('click', () => {
+    $('#important-text').append('<p>Hello World!</p>');
+  });
